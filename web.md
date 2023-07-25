@@ -23,4 +23,10 @@ googling ![image](https://github.com/emilyh1013/writeups/assets/138421980/4f4f43
 going to .htaccess gives me the the fourth part `3s_2_lO0k`. i didnt really get the next hint which was "# I love making websites on my Mac, I can Store a lot of information there" but writeups online told me the capitalized store was apparently a reference to .DS_Store so going there gives me the lsat part. 
 `picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_a69684fd}`
 ## Some Assembly Required 1
+inspecting the source shows me the script source is in "G82XCw5CX3.js."
+## 
+<img width="637" alt="image" src="https://github.com/emilyh1013/writeups/assets/138421980/743a5bf8-86ec-40df-b8b2-13c922178584">
 
+## 
+in the big block of stuff i see a path. going there gives the flag. (strings it and grep for pico)
+`picoCTF{a2843c6ba4157dc1bc052818a6242c3f}`
