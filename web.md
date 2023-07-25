@@ -13,7 +13,9 @@ next you can notice it references "mycss.css" and "myjs.js" which gives the 2nd 
 ## Scavenger Hunt 
 same exact thing as inspector like step for step up to the js part 
 <img width="1117" alt="image" src="https://github.com/emilyh1013/writeups/assets/138421980/5a44fffc-c5b2-4ea4-8f96-190cb3572b65">
-googling "google website index" showed me this result <https://www.bing.com/ck/a?!&&p=2e88218963fab31cJmltdHM9MTY5MDE1NjgwMCZpZ3VpZD0zNDQxMTczMy05MTFlLTZiOWEtMjdlYy0wNDY2OTA5YTZhYmImaW5zaWQ9NTIzMg&ptn=3&hsh=3&fclid=34411733-911e-6b9a-27ec-0466909a6abb&psq=google+website+indexing&u=a1aHR0cHM6Ly9haHJlZnMuY29tL2Jsb2cvZ29vZ2xlLWluZGV4Lw&ntb=1> which mentions a robot.txt file. 
+googling "google website index" showed me this result 
+## 
+<https://www.bing.com/ck/a?!&&p=2e88218963fab31cJmltdHM9MTY5MDE1NjgwMCZpZ3VpZD0zNDQxMTczMy05MTFlLTZiOWEtMjdlYy0wNDY2OTA5YTZhYmImaW5zaWQ9NTIzMg&ptn=3&hsh=3&fclid=34411733-911e-6b9a-27ec-0466909a6abb&psq=google+website+indexing&u=a1aHR0cHM6Ly9haHJlZnMuY29tL2Jsb2cvZ29vZ2xlLWluZGV4Lw&ntb=1> which mentions a robot.txt file. 
 going to /robots.txt gives me the next part `t_0f_pl4c` the next hint is "# I think this is an apache server... can you Access the next flag?"
 googling ![image](https://github.com/emilyh1013/writeups/assets/138421980/4f4f43ff-2d4c-4edf-8420-f825216082dc)
 going to .htaccess gives me the the fourth part `3s_2_lO0k`. i didnt really get the next hint which was "# I love making websites on my Mac, I can Store a lot of information there" but writeups online told me the capitalized store was apparently a reference to .DS_Store so going there gives me the lsat part. 
