@@ -14,9 +14,9 @@ next you can notice it references "mycss.css" and "myjs.js" which gives the 2nd 
 same exact thing as inspector like step for step up to the js part 
 <img width="1117" alt="image" src="https://github.com/emilyh1013/writeups/assets/138421980/5a44fffc-c5b2-4ea4-8f96-190cb3572b65">
 googling "google website index" showed me this result 
-## 
-<https://www.bing.com/ck/a?!&&p=2e88218963fab31cJmltdHM9MTY5MDE1NjgwMCZpZ3VpZD0zNDQxMTczMy05MTFlLTZiOWEtMjdlYy0wNDY2OTA5YTZhYmImaW5zaWQ9NTIzMg&ptn=3&hsh=3&fclid=34411733-911e-6b9a-27ec-0466909a6abb&psq=google+website+indexing&u=a1aHR0cHM6Ly9haHJlZnMuY29tL2Jsb2cvZ29vZ2xlLWluZGV4Lw&ntb=1> 
-##
+```
+<https://ahrefs.com/blog/google-index/> 
+```
 which mentions a robot.txt file. 
 going to /robots.txt gives me the next part `t_0f_pl4c` the next hint is "# I think this is an apache server... can you Access the next flag?"
 googling ![image](https://github.com/emilyh1013/writeups/assets/138421980/4f4f43ff-2d4c-4edf-8420-f825216082dc)
@@ -24,9 +24,8 @@ going to .htaccess gives me the the fourth part `3s_2_lO0k`. i didnt really get 
 `picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_a69684fd}`
 ## Some Assembly Required 1
 inspecting the source shows me the script source is in "G82XCw5CX3.js."
-## 
-<img width="637" alt="image" src="https://github.com/emilyh1013/writeups/assets/138421980/743a5bf8-86ec-40df-b8b2-13c922178584">
-
-## 
+```
+const _0x402c=['value','2wfTpTR','instantiate','275341bEPcme','innerHTML','1195047NznhZg','1qfevql','input','1699808QuoWhA','Correct!','check_flag','Incorrect!','./JIFxzHyW8W','23SMpAuA','802698XOMSrr','charCodeAt','474547vVoGDO','getElementById','instance','copy_char','43591XxcWUl','504454llVtzW','arrayBuffer','2NIQmVj','result'];const _0x4e0e=function(_0x553839,_0x53c021){_0x553839=_0x553839-0x1d6;let _0x402c6f=_0x402c[_0x553839];return _0x402c6f;};(function(_0x76dd13,_0x3dfcae){const _0x371ac6=_0x4e0e;while(!![]){try{const _0x478583=-parseInt(_0x371ac6(0x1eb))+parseInt(_0x371ac6(0x1ed))+-parseInt(_0x371ac6(0x1db))*-parseInt(_0x371ac6(0x1d9))+-parseInt(_0x371ac6(0x1e2))*-parseInt(_0x371ac6(0x1e3))+-parseInt(_0x371ac6(0x1de))*parseInt(_0x371ac6(0x1e0))+parseInt(_0x371ac6(0x1d8))*parseInt(_0x371ac6(0x1ea))+-parseInt(_0x371ac6(0x1e5));if(_0x478583===_0x3dfcae)break;else _0x76dd13['push'](_0x76dd13['shift']());}catch(_0x41d31a){_0x76dd13['push'](_0x76dd13['shift']());}}}(_0x402c,0x994c3));let exports;(async()=>{const _0x48c3be=_0x4e0e;let _0x5f0229=await fetch(_0x48c3be(0x1e9)),_0x1d99e9=await WebAssembly[_0x48c3be(0x1df)](await _0x5f0229[_0x48c3be(0x1da)]()),_0x1f8628=_0x1d99e9[_0x48c3be(0x1d6)];exports=_0x1f8628['exports'];})();function onButtonPress(){const _0xa80748=_0x4e0e;let _0x3761f8=document['getElementById'](_0xa80748(0x1e4))[_0xa80748(0x1dd)];for(let _0x16c626=0x0;_0x16c626<_0x3761f8['length'];_0x16c626++){exports[_0xa80748(0x1d7)](_0x3761f8[_0xa80748(0x1ec)](_0x16c626),_0x16c626);}exports['copy_char'](0x0,_0x3761f8['length']),exports[_0xa80748(0x1e7)]()==0x1?document[_0xa80748(0x1ee)](_0xa80748(0x1dc))[_0xa80748(0x1e1)]=_0xa80748(0x1e6):document[_0xa80748(0x1ee)](_0xa80748(0x1dc))[_0xa80748(0x1e1)]=_0xa80748(0x1e8);}
+```
 in the big block of stuff i see a path. going there gives the flag. (strings it and grep for pico)
 `picoCTF{a2843c6ba4157dc1bc052818a6242c3f}`
