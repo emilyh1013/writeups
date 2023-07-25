@@ -43,5 +43,7 @@ _0x16c626=0x0;_0x16c626<_0x3761f8['length'];_0x16c626++){exports[_0xa80748(0x1d7
 in the big block of stuff searching for / gives a path ./JIFxzHyW8W. going there gives the flag. (strings it and grep for pico)
 `picoCTF{a2843c6ba4157dc1bc052818a6242c3f}`
 ## More Cookies 
-opening it immediately shows a auth token in the cookies, which we are supposed to set to admin value. googling about CBC and mormorphic encryptions tells me its vulnerable to something called bit flips by basically using xor to flip specific bits while checking for the target plaintext, picoCTF bc we dont have the key or iv. HHousen's script works perfectly [link](https://github.com/HHousen/PicoCTF-2021/blob/master/Web%20Exploitation/More%20Cookies/improved_script.py)
+opening it immediately shows a auth token in the cookies, which we are supposed to set to admin value. googling about CBC and mormorphic encryptions tells me its vulnerable to something called bit flips by basically using xor to flip specific bits while checking for the target plaintext, picoCTF bc we dont have the key or iv. HHousen's script works and idk what i used [link](https://github.com/HHousen/PicoCTF-2021/blob/master/Web%20Exploitation/More%20Cookies/improved_script.py)
+`picoCTF{cO0ki3s_yum_82f39377}`
+
 
