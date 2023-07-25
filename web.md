@@ -9,4 +9,14 @@ i literally just brute forced the cookie value up to 18
 ## Insp3ct0r
 control shift i the first part is <img width="414" alt="image" src="https://github.com/emilyh1013/writeups/assets/138421980/64f2a4aa-3c97-4143-8d38-41368f130bc9">
 next you can notice it references "mycss.css" and "myjs.js" which gives the 2nd and 3rd parts `t3ct1ve_0r_ju5t` and `_lucky?2e7b23e3}`
+`picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?2e7b23e3}`
+## Scavenger Hunt 
+same exact thing as inspector like step for step up to the js part 
+<img width="1117" alt="image" src="https://github.com/emilyh1013/writeups/assets/138421980/5a44fffc-c5b2-4ea4-8f96-190cb3572b65">
+googling "google website index" showed me this result <img width="553" alt="image" src="https://github.com/emilyh1013/writeups/assets/138421980/60bafa05-a1fb-4c78-b464-7ba4b9fa2186">
+going to /robots.txt gives me the next part `t_0f_pl4c` the next hint is "# I think this is an apache server... can you Access the next flag?"
+googling ![image](https://github.com/emilyh1013/writeups/assets/138421980/4f4f43ff-2d4c-4edf-8420-f825216082dc)
+going to .htaccess gives me the the fourth part `3s_2_lO0k`. i didnt really get the next hint which was "# I love making websites on my Mac, I can Store a lot of information there" but writeups online told me the capitalized store was apparently a reference to .DS_Store so going there gives me the lsat part. 
+`picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_a69684fd}`
+## Some Assembly Required 1
 
